@@ -1,9 +1,9 @@
 function add(){
-    let fibbo = window.document.querySelector(`input#fibbo`)
+    let fibo = window.document.querySelector(`input#fibo`)
     let res = window.document.querySelector(`div.res`)
     let res1 = window.document.querySelector(`div.res1`)
     let res2 = window.document.querySelector(`div.res2`)
-    let nt = Number(fibbo.value)
+    let nt = Number(fibo.value)
 
             let n0=0
             let n1=0
