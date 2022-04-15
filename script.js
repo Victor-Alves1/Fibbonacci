@@ -26,3 +26,8 @@ function add(){
             }
             num.focus()
 }
+function Capslock(){
+    var text = window.document.querySelector(`#texto`)
+    var str = String(text)
+    text.innerHTML = str.toUpperCase()
+}
